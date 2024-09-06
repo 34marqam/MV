@@ -1,0 +1,39 @@
+/* Custom Styles */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.hero-section {
+    background: url('../images/hero-image.jpg') no-repeat center center/cover;
+    color: white;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.featured-collections .card img, 
+.collections .card img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.about-section {
+    background: #f9f9f9;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
